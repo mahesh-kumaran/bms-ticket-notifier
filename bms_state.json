@@ -1,1 +1,16 @@
-{}
+{
+  "watches": {
+    "the-odyssey-chennai": {
+      "shows": {},
+      "dates": {
+        "20260717": "BOOKABLE",
+        "20260718": "AVAILABLE",
+        "20260719": "AVAILABLE",
+        "20260720": "NOT_OPEN",
+        "20260721": "NOT_OPEN",
+        "20260722": "NOT_OPEN",
+        "20260723": "NOT_OPEN"
+      }
+    }
+  }
+}
