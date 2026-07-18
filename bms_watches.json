@@ -1,13 +1,5 @@
 {
   "watches": [
-    {
-      "id": "the-odyssey-chennai",
-      "name": "The Odyssey - English",
-      "url": "https://in.bookmyshow.com/movies/chennai/the-odyssey/buytickets/ET00480917",
-      "dates": "20260720,20260721,20260722,20260723,20260724",
-      "theatre": "INOX, IMAX",
-      "time_period": ""
-    },
      {
       "id": "spiderman-brand-new-day-chennai",
       "name": "Spiderman: Brand New Day - English",
