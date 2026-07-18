@@ -1,11 +1,132 @@
 {
   "watches": {
     "the-odyssey-chennai": {
-      "shows": {},
+      "shows": {
+        "INPR|63310|20260720|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "09:10 AM",
+          "date": "20260720",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63311|20260720|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "12:45 PM",
+          "date": "20260720",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63312|20260720|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "04:10 PM",
+          "date": "20260720",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63313|20260720|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "07:40 PM",
+          "date": "20260720",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63314|20260720|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "11:15 PM",
+          "date": "20260720",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63315|20260721|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "09:10 AM",
+          "date": "20260721",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        },
+        "INPR|63316|20260721|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "12:45 PM",
+          "date": "20260721",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        },
+        "INPR|63317|20260721|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "04:10 PM",
+          "date": "20260721",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63318|20260721|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "07:40 PM",
+          "date": "20260721",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63319|20260721|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "11:15 PM",
+          "date": "20260721",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63320|20260722|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "09:10 AM",
+          "date": "20260722",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        },
+        "INPR|63321|20260722|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "12:45 PM",
+          "date": "20260722",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        },
+        "INPR|63322|20260722|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "04:10 PM",
+          "date": "20260722",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        },
+        "INPR|63323|20260722|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "07:40 PM",
+          "date": "20260722",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "2"
+        },
+        "INPR|63324|20260722|ELITE": {
+          "venue": "INOX: LUXE Phoenix Market City, Velachery",
+          "time": "11:15 PM",
+          "date": "20260722",
+          "cat": "ELITE",
+          "price": "508.34",
+          "status": "3"
+        }
+      },
       "dates": {
-        "20260718": "AVAILABLE",
+        "20260718": "BOOKABLE",
         "20260719": "AVAILABLE",
-        "20260720": "BOOKABLE",
+        "20260720": "AVAILABLE",
         "20260721": "AVAILABLE",
         "20260722": "AVAILABLE",
         "20260723": "NOT_OPEN",
