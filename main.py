@@ -627,6 +627,7 @@ def main():
     next_state = {"watches": {}}
     any_change = False
     processed = 0
+    had_error = False
 
     for watch in watches:
         print(f"\n  ▶ Watch: {watch.label} ({watch.watch_id})")
@@ -638,6 +639,7 @@ def main():
 
         if not event_code or not region_slug:
             print(f"    ❌ Invalid url for watch '{watch.label}'. Skipping.")
+            had_error = True
             continue
 
         region_code, region_slug_r, lat, lon, geohash = resolve_region(region_slug)
@@ -670,6 +672,7 @@ def main():
             )
             if not data:
                 print(f"    ⚠️  No data for date {dc or '(default)'}")
+                had_error = True
                 continue
 
             if movie_info.get("name") == watch.label:
@@ -728,8 +731,12 @@ def main():
             print(f"      {s.venue_name} — {s.time}{fmt} [{s.date_code}] — {cats}")
 
     if processed == 0:
-        print("\n  ❌ No valid watches were processed.")
-        sys.exit(1)
+        if had_error:
+            print("\n  ❌ No valid watches were processed due to errors.")
+            sys.exit(1)
+        print("\n  ℹ️  No watches have showtimes on sale yet. Nothing to save.")
+        print("\n  Done.")
+        return
 
     save_state(next_state)
 
