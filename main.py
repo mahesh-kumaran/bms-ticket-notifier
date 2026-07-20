@@ -14,7 +14,8 @@ from html import escape
 from datetime import datetime
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
-import requests
+from curl_cffi import requests
+from curl_cffi.requests.exceptions import RequestException
 
 # ──────────────────────────────────────────────────────────────────────
 # CONFIGURATION
@@ -230,11 +231,12 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
     }
     try:
         resp = requests.get(API_URL, headers=headers,
-                            params=params, timeout=15)
+                            params=params, timeout=15,
+                            impersonate="chrome")
         if resp.status_code == 200:
             return resp.json()
         print(f"  HTTP {resp.status_code}")
-    except requests.RequestException as e:
+    except RequestException as e:
         print(f"  Request failed: {e}")
     return None
 
@@ -603,7 +605,7 @@ def send_email(subject, changes, shows, movie_info):
         else:
             print(f"  ❌ Resend {resp.status_code}: {resp.text}")
             sys.exit(1)
-    except requests.RequestException as e:
+    except RequestException as e:
         print(f"  ❌ Email failed: {e}")
         sys.exit(1)
 
