@@ -3,14 +3,14 @@
     "spiderman-brand-new-day-chennai": {
       "shows": {},
       "dates": {
-        "20260730": "AVAILABLE",
+        "20260730": "BOOKABLE",
         "20260731": "AVAILABLE",
         "20260801": "AVAILABLE",
         "20260802": "AVAILABLE",
         "20260803": "AVAILABLE",
         "20260804": "AVAILABLE",
         "20260805": "AVAILABLE",
-        "20260806": "BOOKABLE"
+        "20260806": "AVAILABLE"
       }
     }
   }
