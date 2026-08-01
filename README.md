@@ -1,4 +1,4 @@
-# BMS Ticket Notifier
+# BookMyShow Ticket Notifier
 
 Automatically monitors multiple [BookMyShow](https://in.bookmyshow.com) movies for ticket availability and sends you an email alert when something changes.
 
